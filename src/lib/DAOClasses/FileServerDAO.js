@@ -102,7 +102,7 @@ class FileServerDAO {
             throw new Error(`Image conversion failed: ${error.message}`);
         }
     }
-
+/*
     async convertDocxToPDF(file) {
         try {
             const docxBuffer = await fs.promises.readFile(file.path);
@@ -122,6 +122,7 @@ class FileServerDAO {
         }
     }
 
+    */
   async convertPptxToPDF(file) {
         return new Promise((resolve, reject) => {
             const command = `libreoffice --headless --convert-to pdf --outdir ./output ${file.path}`;
