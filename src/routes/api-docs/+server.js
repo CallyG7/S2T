@@ -13,8 +13,8 @@ const swaggerOptions = {
         },
         servers: [
             {
-                //url: process.env.API_BASE_URL || 'http://localhost:5173',
-                url: process.env.API_BASE_URL || 'https://s2tnwu.vercel.app',
+                url: process.env.API_BASE_URL || 'http://localhost:5173',
+                //url: process.env.API_BASE_URL || 'https://s2tnwu.vercel.app',
             },
         ],
     },
