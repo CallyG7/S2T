@@ -3,7 +3,7 @@ import { FILE_CON_STR } from '$env/static/private';
 import { PDFDocument } from 'pdf-lib'; // For PDF manipulation
 import fs from 'fs'; // For file system operations
 //import * as fileType from 'file-type'; // Use this if you face import issues
-import mammoth from 'mammoth'; // For DOCX to HTML conversion
+//import mammoth from 'mammoth'; // For DOCX to HTML conversion
 //import puppeteer from 'puppeteer';
 //import { exec } from 'child_process'; // For PPTX conversion
 import { config } from 'dotenv';
